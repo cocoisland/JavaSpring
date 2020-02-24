@@ -2,10 +2,13 @@
 
 A student that completes this project shows that they can:
 
-* Perform CRUD operations on an RDBMS using JPA and Hibernate (reading)
-* Implement seed data using SQL statements
-* Explain and use Spring Data Relationships
+* Start project template using https://start.spring.io with Spring Web, DevTool, H2, JPA.
+* Perform CRUD operations on an RDBMS using JPA "findBy" autogeneration and Hibernate manual Query sql statement. These JPA findBy autogeneration and Hibernate manual Query need to be declared in the Crud repository or DAO interface file.
+
+* Implement seed data using data.SQL statements placed in src/main/resources directory
+* Explain and use Spring Data Relationships, OneToMany, ManyToMany.
 * Use the JsonIgnoreProperties annotation to prevent infinite loops
+* Using H2 in-memory database, localhost:/2020/h2-console, with database url = jdbc:h2:mem:testdb
 
 ## Introduction
 
